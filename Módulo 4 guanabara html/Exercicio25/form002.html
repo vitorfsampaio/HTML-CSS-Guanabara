@@ -9,10 +9,10 @@
     <h1>Teste de formulário</h1>
     <form method="post" action="cadastro.php" autocomplete="off">
         <p><label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="12" size="15" placeholder="Usuário" autocomplete="username">
         </p>
         <p><label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome" required>
+            <input type="text" name="sobrenome" id="isobrenome" minlength="6" maxlength="20" size="8" placeholder="Max 8 letras" autocomplete="new-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
