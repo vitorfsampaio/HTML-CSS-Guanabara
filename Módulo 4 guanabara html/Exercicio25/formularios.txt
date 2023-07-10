@@ -1,0 +1,19 @@
+Anotações importantes sobre formulários:
+
+Sempre usar Label e linkar com o ID do input
+
+Autocomplete "off" ou "on" para sugestões no formulário
+
+method get e post
+
+get = dados não sensiveis como peso e altura
+
+post = dados sensíveis como cartões de crédito e fotos
+
+tags importantes para formulários:
+
+input > required = torna obrigatório inserir a informação no input
+input > minlength="x" maxlength="y" tamanho máximo e minimo de caracteres
+input > size="10" tamanho da caixa de texto
+input > placeholder="Senha" Legenda interna da caixa de texto
+form > fieldset = agrupa todos os itens do formulario
