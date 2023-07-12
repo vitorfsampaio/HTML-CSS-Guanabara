@@ -1,0 +1,3 @@
+Anotações importantes sobre MQ
+
+Media query = Media type (celular, pc, etc...) + Media Features (Características diferentes para cada tela)
