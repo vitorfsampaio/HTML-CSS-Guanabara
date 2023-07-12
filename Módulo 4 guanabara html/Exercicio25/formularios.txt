@@ -6,9 +6,9 @@ Autocomplete "off" ou "on" para sugestões no formulário
 
 method get e post
 
-get = dados não sensiveis como peso e altura
+get = dados não sensiveis como peso e altura (LIMITE DE 3000B) 
 
-post = dados sensíveis como cartões de crédito e fotos
+post = dados sensíveis como cartões de crédito e fotos (ILIMITADO)
 
 tags importantes para formulários:
 
@@ -21,3 +21,5 @@ fieldset > legend = legenda para o formulário
 
 input:radio = bolinhas que se desmarcam ao selecionar outra opção, (colocar o mesmo "name" para que uma desmarque a outra.
 (Lembrar de colocar "value=M ou value=F para input radio de sexo"
+
+input:file = tem que usar o método POST porque pode ser uma informação sensível
