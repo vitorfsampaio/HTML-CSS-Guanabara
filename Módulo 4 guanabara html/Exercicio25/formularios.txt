@@ -17,3 +17,7 @@ input > minlength="x" maxlength="y" tamanho máximo e minimo de caracteres
 input > size="10" tamanho da caixa de texto
 input > placeholder="Senha" Legenda interna da caixa de texto
 form > fieldset = agrupa todos os itens do formulario
+fieldset > legend = legenda para o formulário
+
+input:radio = bolinhas que se desmarcam ao selecionar outra opção, (colocar o mesmo "name" para que uma desmarque a outra.
+(Lembrar de colocar "value=M ou value=F para input radio de sexo"
