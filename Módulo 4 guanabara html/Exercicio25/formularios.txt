@@ -23,3 +23,5 @@ input:radio = bolinhas que se desmarcam ao selecionar outra opção, (colocar o 
 (Lembrar de colocar "value=M ou value=F para input radio de sexo"
 
 input:file = tem que usar o método POST porque pode ser uma informação sensível
+
+output = expõe na tela do usuário um comando provavelmente em JavaScript
